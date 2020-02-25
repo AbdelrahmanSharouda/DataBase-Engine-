@@ -47,7 +47,8 @@ htblColNameType_1.put("id", "java.lang.Integer");
 htblColNameType_1.put("name", "java.lang.String");
 htblColNameType_1.put("Job-Type", "java.lang.double");
 
-
+public static void sharouda(int e){
+}
 
 dbApp.createTable(TA,"SSN",htblColNameType_1);
 //dbApp.createTable(strTableName_2,"id",  htblColNameType_1);
