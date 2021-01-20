@@ -3,7 +3,7 @@ DataBase Engine Build With B+ Tree
 
 #The Database Engine supports the following operations :
 
-1)Create table 
+1) Create table 
 
 2) insert into table
 
