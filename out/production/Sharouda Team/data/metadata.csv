@@ -1,0 +1,4 @@
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+Okay,State,java.lang.String,False,False
+Okay,User_Name,java.lang.String,False,False
+Okay,Age,java.lang.double,False,False

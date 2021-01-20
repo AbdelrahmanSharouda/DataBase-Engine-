@@ -1,0 +1,32 @@
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+Student,Name,java.lang.String,False,False
+Student,Age,java.lang.Double,False,False
+Student,id,java.lang.Integer,True,False
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+Employee,Name,java.lang.String,False,False
+Employee,Age,java.lang.Double,False,False
+Employee,id,java.lang.Integer,True,False
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+Zoo,Name,java.lang.String,False,False
+Zoo,Age,java.lang.Double,False,False
+Zoo,id,java.lang.Integer,True,False
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+Animal,Species,java.lang.String,False,False
+Animal,Name,java.lang.String,False,False
+Animal,TagNumber,java.lang.Integer,True,False
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+Hooman,Name,java.lang.String,False,False
+Hooman,Age,java.lang.Double,False,False
+Hooman,social_id,java.lang.Integer,True,False
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+Human,Species,java.lang.String,False,False
+Human,Name,java.lang.String,False,False
+Human,id,java.lang.Integer,False,False
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+POOPLE,Species,java.lang.String,False,False
+POOPLE,Name,java.lang.String,False,False
+POOPLE,id,java.lang.Integer,True,False
+Table Name,Column Name,Column Type,ClusteringKey,Indexed
+boom,gpa,java.lang.double,False,False
+boom,name,java.lang.String,False,False
+boom,id,java.lang.Integer,True,False
