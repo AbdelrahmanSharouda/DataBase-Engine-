@@ -31,10 +31,8 @@ public static void init(String strTableName , String ClusteringKey, Hashtable<St
 	tables.add(t);
 	}
 	else {
-	if(!tables.isEmpty()) {
 	for(int i=0; i < tables.size();i++) {
 	if(tables.get(i).getTable_Name().equals(strTableName)) {
-	}
 	}
 	}
 	t = new Table(strTableName, ClusteringKey, ColumnNameType,Max_Row);
