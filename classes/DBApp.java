@@ -31,10 +31,6 @@ public static void init(String strTableName , String ClusteringKey, Hashtable<St
 	tables.add(t);
 	}
 	else {
-	for(int i=0; i < tables.size();i++) {
-	if(tables.get(i).getTable_Name().equals(strTableName)) {
-	}
-	}
 	t = new Table(strTableName, ClusteringKey, ColumnNameType,Max_Row);
 	tables.add(t);
 	}
@@ -102,7 +98,9 @@ public void createTable(String strTableName,String strClusteringKeyColumn,Hashta
 //if(!CheckTableType(htblColNameType)) {
 //throw new DBAppException("Data Type is not Found");	
 //}
+if(! TableExists(strTableName)){
 init(strTableName, strClusteringKeyColumn,htblColNameType);
+}
 System.out.println("created");
 }
 
