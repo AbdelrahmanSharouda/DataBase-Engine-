@@ -28,12 +28,11 @@ public static void init(String strTableName , String ClusteringKey, Hashtable<St
 	if(tables == null) {
 	t = new Table(strTableName, ClusteringKey, ColumnNameType,Max_Row);
 	tables =new Vector<Table>();
-	tables.add(t);
 	}
 	else {
 	t = new Table(strTableName, ClusteringKey, ColumnNameType,Max_Row);
-	tables.add(t);
 	}
+	tables.add(t);
 	serialize_table();
 }
 
